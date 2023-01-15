@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.row {
+  margin-top: 20px;
+}
+.row > div {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: black;
+}
+
+/*      */
+
+.header img {
+  width: 40px;
+}
+.header:active {
+  transform: scale(0.9);
+}
+
+/*      */
+
+.second {
+  margin-top: 50px;
+  width: 100%;
+}
+.second:active {
+  transform: scale(1.1);
+}
+
+.second span {
+  color: blue;
+}
+.second h1 {
+  font-size: 50px;
+  opacity: 0.9;
+  padding: 30px;
+}
+.second img {
+  width: 300px;
+  height: 300px;
+}
+
+/*      */
+
+.three {
+  max-width: 100%;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.three:active {
+  transform: scale(1.1);
+}
+.three img {
+  margin-right: 380px;
+  width: 30px;
+}
+
+/*     */
+
+.forth {
+  margin-top: 50px;
+}
+.forth:active {
+  transform: scale(0.9);
+}
+/*      */
+
+.five {
+  margin-top: 50px;
+}
+.five:hover {
+  background-color: white;
+  transform: scaleZ(1.1);
+}
+
+/*       */
+
+.six {
+  background-color: gainsboro;
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+}
+.six:hover {
+  background: scroll;
+}
+button {
+  margin-top: 10px;
+  margin-left: 310px;
+}
